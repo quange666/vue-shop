@@ -40,34 +40,34 @@
 </template>
 
 <script>
-  export default {
-    name: 'ElTimelineItem',
+export default {
+  name: 'ElTimelineItem',
 
-    inject: ['timeline'],
+  inject: ['timeline'],
 
-    props: {
-      timestamp: String,
+  props: {
+    timestamp: String,
 
-      hideTimestamp: {
-        type: Boolean,
-        default: false
-      },
+    hideTimestamp: {
+      type: Boolean,
+      default: false
+    },
 
-      placement: {
-        type: String,
-        default: 'bottom'
-      },
-
+    placement: {
       type: String,
+      default: 'bottom'
+    },
 
-      color: String,
+    type: String,
 
-      size: {
-        type: String,
-        default: 'normal'
-      },
+    color: String,
 
-      icon: String
-    }
-  };
+    size: {
+      type: String,
+      default: 'normal'
+    },
+
+    icon: String
+  }
+}
 </script>
