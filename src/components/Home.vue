@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-button type="info" @click="logout">退出</el-button>
-    <h2>这个是home组件</h2>
+    <h2>这个是home组件222</h2>
   </div>
 </template>
 
@@ -10,7 +10,7 @@ export default {
   methods: {
     logout() {
       window.sessionStorage.clear()
-      this.$router.push('/login')
+      this.$router.push('/')
     }
   }
 }
